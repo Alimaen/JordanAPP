@@ -5,7 +5,7 @@ export default class Rent extends Component {
   render() {
     return (
       <View>
-        <Text> textInComponent </Text>
+        <Text> Rent </Text>
       </View>
     );
   }

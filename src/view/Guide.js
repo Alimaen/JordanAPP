@@ -5,7 +5,7 @@ export default class Guide extends Component {
   render() {
     return (
       <View>
-        <Text> textInComponent </Text>
+        <Text> Guide </Text>
       </View>
     );
   }

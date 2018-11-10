@@ -5,7 +5,7 @@ export default class WashRoom extends Component {
   render() {
     return (
       <View>
-        <Text> textInComponent </Text>
+        <Text> WashRoom </Text>
       </View>
     );
   }
