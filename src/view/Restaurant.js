@@ -6,7 +6,7 @@ export default class Restaurant extends Component {
     return (
       <View>
         <Text> Guide </Text>
-        <MapView
+        {/* <MapView
           mapType={Platform.OS == "android" ? "none" : "standard"}
           initialRegion={{
             latitude: 37.78825,
@@ -14,7 +14,7 @@ export default class Restaurant extends Component {
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421
           }}
-        />
+        /> */}
       </View>
     );
   }
