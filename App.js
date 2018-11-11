@@ -109,8 +109,8 @@ export default createMaterialBottomTabNavigator(
     initialRouteName: "Guide",
     order: ["WashRoom", "Event", "Guide", "Restaurant", "Rent"],
     shifting: true,
-    activeTintColor: "#0F0",
-    inactiveTintColor: "#FF6347",
+    activeTintColor: "#217EFF",
+    inactiveTintColor: "#DBC6C3",
     barStyle: {
       backgroundColor: "white" //color you want to change
     }
