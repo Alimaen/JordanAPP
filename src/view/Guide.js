@@ -5,7 +5,7 @@ export default class Guide extends Component {
   render() {
     return (
       <View>
-        <Text> Guide </Text>
+        <Text> Guide1 {new Date().toLocaleString()}</Text>
       </View>
     );
   }
