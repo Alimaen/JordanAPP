@@ -1,12 +1,12 @@
-import React from "react";
-import { StyleSheet } from "react-native";
+import React, from "react";
+import { StyleSheet,  } from "react-native";
 import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 import Icon from "react-native-vector-icons/Ionicons";
-import WashRoom from "./src/view/WashRoom";
-import Event from "./src/view/Events";
-import Guide from "./src/view/Guide";
-import Restaurant from "./src/view/Restaurant";
-import Rent from "./src/view/Rent";
+import WashRoom from "./WashRoom";
+import Event from "./Events";
+import Guide from "./Guide";
+import Restaurant from "./Restaurant";
+import Rent from "./Rent";
 
 type Props = {};
 
