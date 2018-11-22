@@ -8,28 +8,34 @@ const data = [
     picture:
       "http://www.thesourcechiropractic.com/wp-content/uploads/2014/03/headshot-jordan.jpg",
     name: "Jordan Jordan",
+    experience: " Some thing about the guide",
     pay: "$ 15 per hour"
   },
   {
     picture: "https://www.jordanmatter.com/images/gallery/Samira_Wiley.jpg",
     name: "Samira Wiley",
+    experience: " Some thing about the guide",
     pay: "$ 100 per person"
   },
   {
     picture: "http://via.placeholder.com/160x160",
-    name: ""
+    name: "John Doe",
+    experience: " Some thing about the guide"
   },
   {
     picture: "http://via.placeholder.com/160x160",
-    name: ""
+    name: "John Doe",
+    experience: " Some thing about the guide"
   },
   {
     picture: "http://via.placeholder.com/160x160",
-    name: ""
+    name: "John Doe",
+    experience: " Some thing about the guide"
   },
   {
     picture: "http://via.placeholder.com/160x160",
-    name: ""
+    name: "John Doe",
+    experience: " Some thing about the guide"
   }
 ];
 
