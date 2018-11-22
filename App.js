@@ -8,7 +8,7 @@ import Restaurant from "./src/view/Restaurant";
 import Rent from "./src/view/Rent";
 
 type Props = {};
-
+console.disableYellowBox = true;
 export default createMaterialBottomTabNavigator(
   {
     WashRoom: {

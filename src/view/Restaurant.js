@@ -211,7 +211,7 @@ export default class screens extends Component {
           {this.state.markers.map((marker, index) => (
             <TouchableOpacity
               onPress={this.openMap.bind(this, marker.coordinate)}>
-              <View style={styles.card} key={index}>
+              <View style={styles.card} key={"r" + index}>
                 <Image
                   source={marker.image}
                   style={styles.cardImage}

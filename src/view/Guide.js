@@ -70,10 +70,15 @@ export default class Guide extends Component {
                   }}>
                   {rowData.pay}
                 </Text>
+                <Text>BIO</Text>
+                <Text>
+                  Mega Bio with bolded features :
+                  <Text style={{ fontWeight: "bold" }}>BIO2</Text>
+                </Text>
               </Card>
             );
           }}
-          keyExtractor={(item, index) => index}
+          keyExtractor={(item, index) => "g" + index}
         />
       </View>
     );
