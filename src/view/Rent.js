@@ -7,8 +7,18 @@ let { width, height } = Dimensions.get("window");
 var stringSimilarity = require("string-similarity");
 
 const start_data = [
-  { name: "Fishing Pole", detail: "Need for fishing", price: 10 },
-  { name: "Boat", detail: "Need for fishing and boating.", price: 10 }
+  {
+    name: "Fishing Pole",
+    detail: "Need for fishing",
+    price: 10,
+    location: "At Amman park"
+  },
+  {
+    name: "Boat",
+    detail: "Need for fishing and boating.",
+    price: 10,
+    location: "At Amman park"
+  }
 ];
 export default class Rent extends Component {
   constructor(props) {
@@ -89,8 +99,9 @@ export default class Rent extends Component {
                     marginBottom: 10,
                     fontStyle: "italic"
                   }}>
-                  <Text>hello</Text>
+                  <Text>{22 - Math.ceil(Math.random() * 20)} left</Text>
                   <Text>{rowData.detail}</Text>
+                  <Text style={{ fontWeight: "bold" }}>{rowData.location}</Text>
                 </View>
               </Card>
             );
