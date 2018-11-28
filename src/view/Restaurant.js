@@ -286,13 +286,13 @@ const styles = StyleSheet.create({
   marker: {
     width: 8,
     height: 8,
-    borderRadius: 4,
+    borderRadius: 20,
     backgroundColor: "rgba(130,4,150, 0.9)"
   },
   ring: {
-    width: 24,
-    height: 24,
-    borderRadius: 12,
+    width: 50,
+    height: 100,
+    borderRadius: 50,
     backgroundColor: "rgba(130,4,150, 0.3)",
     position: "absolute",
     borderWidth: 1,
