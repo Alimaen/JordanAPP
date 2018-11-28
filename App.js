@@ -58,7 +58,7 @@ export default createMaterialBottomTabNavigator(
     }
   },
   {
-    initialRouteName: "Guide",
+    initialRouteName: "Event",
     order: ["WashRoom", "Event", "Guide", "Restaurant", "Rent"],
     shifting: true,
     activeTintColor: "#217EFF",
